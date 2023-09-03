@@ -3,45 +3,72 @@
 # El programa debe determinar el número máximo en el conjunto, 
 # indicar su posición en la secuencia y
 # encontrar el segundo número más grande junto con su posición.
-
-# Inicializamos las variables
 maximo = 0
 maximo2 = 0
 pos_maximo = 0
 pos_maximo2 = 0
 
-# Iteramos 10 veces para ingresar números
-for i in range(0,10):
-    while True:
-        try:
-            # Solicitar al usuario que ingrese un valor
-            numero = int(input("Ingrese un número entero positivo: "))
 
-            # Verificar si el valor es válido (por ejemplo, un número entero positivo)
-            if numero >= 0:
-                break  # Salir del bucle si el valor es válido
-            else:
-                print("El valor debe ser un número entero positivo. Inténtelo nuevamente.")
-
-        except ValueError:
-            print("Ingrese un valor válido. Inténtelo nuevamente.")
-
-# Hacer algo con el valor válido
-    
-    # Comprobamos si es el número máximo
-    if numero > maximo:        
-        maximo2 = maximo
-        pos_maximo2 = pos_maximo        
-        maximo = numero
-        pos_maximo = i + 1
-    # Comprobamos si es el segundo número máximo
-    elif numero > maximo2:
-        maximo2 = numero
+for i in range(0, 10):
+    num = int(input("Por favor ingrese un número: "))
+    if i == 0:
+        maximo = num
+        maximo2 = num
+        pos_maximo = i+1
+        pos_maximo2 = i+1
+    elif num > maximo:
+        maximo = num
+        pos_maximo = i+1
+    elif num > maximo2:
+        maximo2 = num
         pos_maximo2 = i + 1
 
+print(maximo)
+print(pos_maximo)
+print(maximo2)
+print(pos_maximo2)
+
+print("El número mas grande ingresado es el:", maximo,"y su posición es:", pos_maximo,"Y el segundo mas grande es el:", maximo2, "y su posición es:", pos_maximo2);
+
+
+## lo de abajo no funciona con numeros negativos 
+# # Inicializamos las variables
+# maximo = 0
+# maximo2 = 0
+# pos_maximo = 0
+# pos_maximo2 = 0
+# # Iteramos 10 veces para ingresar números
+# for i in range(0,10):
+#     while True:
+#         try:
+#             # Solicitar al usuario que ingrese un valor
+#             numero = int(input("Ingrese un número entero positivo: "))
+
+#             # Verificar si el valor es válido (por ejemplo, un número entero positivo)
+#             if numero >= 0:
+#                 break  # Salir del bucle si el valor es válido
+#             else:
+#                 print("El valor debe ser un número entero positivo. Inténtelo nuevamente.")
+
+#         except ValueError:
+#             print("Ingrese un valor válido. Inténtelo nuevamente.")
+
+# # Hacer algo con el valor válido
+    
+#     # Comprobamos si es el número máximo
+#     if numero > maximo:        
+#         maximo2 = maximo
+#         pos_maximo2 = pos_maximo        
+#         maximo = numero
+#         pos_maximo = i + 1
+#     # Comprobamos si es el segundo número máximo
+#     elif numero > maximo2:
+#         maximo2 = numero
+#         pos_maximo2 = i + 1
+
 # Imprimimos los resultados
-print('El número máximo es', maximo, 'y su posición es el número', pos_maximo)
-print('El segundo número más grande es', maximo2, 'y su posición es el número', pos_maximo2)
+# print('El número máximo es', maximo, 'y su posición es el número', pos_maximo)
+# print('El segundo número más grande es', maximo2, 'y su posición es el número', pos_maximo2)
 
 #  ------ Sin corregir ----------
 

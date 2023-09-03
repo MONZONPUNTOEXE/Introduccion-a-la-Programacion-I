@@ -22,14 +22,8 @@ for i in range(0, 10):
     elif num > maximo2:
         maximo2 = num
         pos_maximo2 = i + 1
-
-print(maximo)
-print(pos_maximo)
-print(maximo2)
-print(pos_maximo2)
-
+        
 print("El número mas grande ingresado es el:", maximo,"y su posición es:", pos_maximo,"Y el segundo mas grande es el:", maximo2, "y su posición es:", pos_maximo2);
-
 
 ## lo de abajo no funciona con numeros negativos 
 # # Inicializamos las variables

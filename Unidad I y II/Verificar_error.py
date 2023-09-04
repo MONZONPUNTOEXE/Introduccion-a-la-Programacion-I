@@ -11,6 +11,11 @@ for i in range(0,4):
     # Comprobamos si es el número máximo
     print(maximo)
     print(numero)
+
+#     Aca profe si meto un 1,2,3,1 en una parte es "False False" y entra igual al bloque del codigo
+#     Porque ?
+#     Deje los print para poder el debugear
+
     if maximo or numero > maximo:
             print(maximo > maximo);
             print(numero > maximo)

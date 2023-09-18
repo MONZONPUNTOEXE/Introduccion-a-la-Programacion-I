@@ -10,7 +10,7 @@ while user != 3:
     if user == 1:
         negocio.sistemaAlfajores();
     if user == 2:
-        print(user);
+        print(user)
     if user == 3:
         print("Adios");
     else: 

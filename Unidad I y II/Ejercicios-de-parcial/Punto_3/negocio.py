@@ -18,12 +18,16 @@ def sistemaAlfajores():
     subtotal_caja = caja * caja_precio
     subtotal_unidades = unidades*unidad_precio
     total = subtotal_caja + subtotal_unidades
+    
 
     print("unidades =", unidades,"caja =", caja);
     print("El cliente compró por caja la cantidad de:", caja, "\n" "Por unidad la cantidad de:", unidades);
     print("Por lo tanto el subtotal por caja es de:", subtotal_caja,"Pesos" "\n" "y por unidad es de:", subtotal_unidades, "Pesos");
     print("********************* El total a pagar es de:", total, "*********************" )
+    
 
-def sistemaAlfajoresMayor():
-    import 
-    print(total)
+
+    
+
+
+

@@ -17,6 +17,7 @@ def sistemaAlfajores():
     unidades = cant_alfajores - caja * 12
     subtotal_caja = caja * caja_precio
     subtotal_unidades = unidades*unidad_precio
+    global total
     total = subtotal_caja + subtotal_unidades
     
 
@@ -25,9 +26,12 @@ def sistemaAlfajores():
     print("Por lo tanto el subtotal por caja es de:", subtotal_caja,"Pesos" "\n" "y por unidad es de:", subtotal_unidades, "Pesos");
     print("********************* El total a pagar es de:", total, "*********************" )
     
-
-
+def ventaMayor():
+    venta_mayor = 0
     
+    if total > venta_mayor:
+        venta_mayor = total
 
+    print("La venta mayor fue de:",int(venta_mayor),"Pesos")
 
 

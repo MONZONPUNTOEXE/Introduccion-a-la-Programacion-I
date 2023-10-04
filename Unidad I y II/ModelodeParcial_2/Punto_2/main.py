@@ -9,7 +9,8 @@ for i in range (0,5):
     # hacemos uso del "While", si el usuario ingresa un valor menor a cero no lo deje ingresar
     # otro que no sea mayor a cero 
     while user <= 0: # Mientras User sea "Verdadero" entrara en el bucle
-        print("*ERROR*\nPor favor ingrese un número mayor a cero: ")
+        print("*ERROR*")
+        print("Por favor ingrese un número mayor a cero: ")
         # Es importante actualizar la variable "user". Porque sino queda con el valor que se le asigno
         # y siempre va valer Verdadero y entra en el bucle siempre, creando un bucle infinito
         # Para esto le decimos al usuario que ingrese un valor mayor a Cero. 
@@ -20,6 +21,7 @@ for i in range (0,5):
         maximo = user
         posicion_1 = i + 1
         posicion_2 = i
+        
     elif maximo2 < maximo: # Si el dato en el "if" es Falso, entrara en el "elif" y ejecuta este código
         maximo2 = user
         posicion_2 = i + 1

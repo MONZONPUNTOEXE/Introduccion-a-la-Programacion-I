@@ -7,7 +7,7 @@ suma = 0
 for i in range (0,5):
     user = int(input("Ingrese un numero mayor a cero: "))
     # hacemos uso del "While", si el usuario ingresa un valor menor a cero no lo deje ingresar
-    # otro que no sea mayor a cero 
+    # hasta que no sea mayor a cero 
     while user <= 0: # Mientras User sea "Verdadero" entrara en el bucle
         print("*ERROR*")
         print("Por favor ingrese un número mayor a cero: ")
@@ -21,7 +21,7 @@ for i in range (0,5):
         maximo = user
         posicion_1 = i + 1
         posicion_2 = i
-        
+
     elif maximo2 < maximo: # Si el dato en el "if" es Falso, entrara en el "elif" y ejecuta este código
         maximo2 = user
         posicion_2 = i + 1

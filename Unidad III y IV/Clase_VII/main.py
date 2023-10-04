@@ -1,4 +1,6 @@
+# llamar las funciónes de Menu
 import menu
+# llamar las funciónes de funciones xD (valga la redundancia)
 import funciones
 
 user = 0

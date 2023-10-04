@@ -22,6 +22,7 @@ for i in range (0,5):
         posicion_1 = i + 1
         posicion_2 = i
 
+    # if user < maximo2: -> Esto tenia escrito en el codigo anterior, estaba mal porque en este caso  maximo y maximo2 iban a tener el mismo valor siempre 
     elif maximo2 < maximo: # Si el dato en el "if" es Falso, entrara en el "elif" y ejecuta este código
         maximo2 = user
         posicion_2 = i + 1

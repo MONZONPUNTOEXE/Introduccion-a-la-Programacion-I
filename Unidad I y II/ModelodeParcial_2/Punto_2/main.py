@@ -18,9 +18,9 @@ for i in range (0,5):
         # Si el usuario ingresa un valor mayor a Cero, la condicional será Falsa, por lo tanto rompe el bucle
     if maximo < user: # Si el dato es verdadeo ejecuta este codigo
         maximo2 = maximo
+        posicion_2 = posicion_1
         maximo = user
         posicion_1 = i + 1
-        posicion_2 = i
 
     # if user < maximo2: -> Esto tenia escrito en el codigo anterior, estaba mal porque en este caso  maximo y maximo2 iban a tener el mismo valor siempre 
     elif maximo2 < maximo: # Si el dato en el "if" es Falso, entrara en el "elif" y ejecuta este código

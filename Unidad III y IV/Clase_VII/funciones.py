@@ -27,21 +27,19 @@ def ingresarEmpleados():
         # Hacemos la entrada de datos para agregarselas a las listas
         listacodigo.append(input("Ingrese el codigo del empleado: "))
         print(listacodigo)
-
         listanombre.append(input("Ingrese el nombre y apellido del empleado: "))
         print(listanombre)
-
-        listahoras.append(int(input("Ingrese el horas del empleado: ")))
-        print(listahoras)
-
         # Calculamos el sueldo bruto del empleado
-        # NOTA: CREO QUE NO ES NECESARIO QUE ESTE EN UN FOR
-        for i in range(len(listahoras)):
-            listasueldo.append((listahoras[i]*valor_por_hora) + sueldo_basico)
-            print(listasueldo)
+        horas = int(input("Ingrese el horas del empleado: "))
+        total_sueldo = sueldo_basico + (valor_por_hora * horas)
+        listahoras.append(horas)
+        print(listahoras)
+        listasueldo.append(total_sueldo)
+        print(listasueldo)        
 
         # Solicitamos al usuario si desea ingresar otro empleado
         user = input("Desea ingresar un empleado nuevo? y/n: ")
+
 
 # Función para buscar un empleado por código
 def buscarEmpleado():

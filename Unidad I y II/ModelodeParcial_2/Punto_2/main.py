@@ -4,7 +4,7 @@ posicion_1 = 0
 posicion_2 = 0
 suma = 0
 
-for i in range (0,5):
+for i in range (0,10):
     user = int(input("Ingrese un numero mayor a cero: "))
     # hacemos uso del "While", si el usuario ingresa un valor menor a cero no lo deje ingresar
     # hasta que no sea mayor a cero 
@@ -21,9 +21,8 @@ for i in range (0,5):
         posicion_2 = posicion_1
         maximo = user
         posicion_1 = i + 1
-
-    # if user < maximo2: -> Esto tenia escrito en el codigo anterior, estaba mal porque en este caso  maximo y maximo2 iban a tener el mismo valor siempre 
-    elif maximo2 < maximo: # Si el dato en el "if" es Falso, entrara en el "elif" y ejecuta este código
+    # "if" user < maximo2: -> Esto tenia escrito en el codigo anterior, estaba mal porque en este caso el "if" hace que maximo y maximo2 iban a tener el mismo valor siempre 
+    elif maximo2 < user: # Si el dato en el "if" es Falso, entrara en el "elif" y ejecuta este código
         maximo2 = user
         posicion_2 = i + 1
 

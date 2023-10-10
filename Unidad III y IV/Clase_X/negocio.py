@@ -19,25 +19,22 @@ def IngresarSueldo():
     print("sueldo superior:\n", sueldosSuperiores)
 
 # Ejercicio 2:
+def cargaYBusquedaDeNumeros():
+    ciclo = True
+    numeros = []
+    while ciclo:
+        user = int(input("Ingrese un numero:\n"))
+        if user > 0:
+            numeros.append(user)
+        pregunta = input("Desea ingresar un nuevo numero ? y/n ")
+        if pregunta == "n":
+            ciclo = False
 
-ciclo = True
-numeros = [1,3,8,10,45]
+    def buscar(iterar_numeros, user_search):
+        for i in range(len(iterar_numeros)):
+            if user_search == iterar_numeros[i]:
+                return True
+        return False
 
-
-while ciclo:
-    user = int(input("Ingrese un numero:\n"))
-    if user > 0:
-        numeros.append(user)
-    pregunta = input("Desea ingresar un nuevo numero ? y/n ")
-    if pregunta == "n":
-        ciclo = False
-
-
-def buscar(iterar_numeros, user_search):
-    for i in range(len(iterar_numeros)):
-        if user_search == iterar_numeros[i]:
-            return True
-    return False
-
-resultado_de_busqueda = buscar(numeros, 80)
-print(resultado_de_busqueda)
+    resultado_de_busqueda = buscar(numeros, 80)
+    print(resultado_de_busqueda)

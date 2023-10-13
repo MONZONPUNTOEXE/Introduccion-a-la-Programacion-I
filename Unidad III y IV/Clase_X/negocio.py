@@ -92,3 +92,127 @@ def listaInvertida():
     print("Aqui esta la lista pero con los números invertidos:")
     print(numerosInvertidos)
 
+# Ejercicio 5
+def tiendita():
+    producto = ["Arroz","Fideo","Galletas","Pan","Gaseosa","Cerveza","Jugo","Leche","Manteca","Queso"]
+    precio = [430,440,330,1000,450,1000,140,500,558,1050]
+    stock = [5,4,35,6,45,65,63,7,34,65]
+
+    
+# Dar de alta un producto nuevo
+    while True:
+        user = input("Desea ingresar un producto nuevo y/n: ")
+        if user == "y":
+            productoNuevo = input("Ingrese el nombre del producto:\n")
+            precioNuevo = int(input("Ingrese el precio del producto:\n"))
+            stockNuevo = int(input("Ingrese el stock actual del producto:\n"))
+
+            producto.append(productoNuevo)
+            precio.append(precioNuevo)
+            stock.append(stockNuevo)
+
+            print(producto)
+            print(precio)
+            print(stock)
+
+        elif user == "n":
+            break
+# Buscar Producto
+    # La funcionalidad de "busqueda False y True". No pedia el enunciado, pero se lo agregue
+    while True:
+        user = input("Desea buscar un producto y/n: ")
+        if user == "y":
+                user = input("Introduzca el nombre del producto que desea buscar:\n")
+                busqueda = False #Esta funcionalidad no estaba en el enunciado
+                for i in range(len(producto)): #Con que encuentre las listas es mas que suficiente
+                    if user == producto[i]:
+                        print("Su producto fue encontrado exitosamente:")
+                        print(producto[i])
+                        print("Precio:",precio[i])
+                        cambiar_precio = int(input("precio nuevo"))
+                        precio[i] = cambiar_precio
+                        print("Stock:",stock[i])
+
+                        print(producto[i])
+                        print("Precio:",precio[i])
+                        print("Stock:",stock[i])
+
+                        busqueda = True
+                if busqueda == False:
+                    print("Su producto no fue encontrado, Intentalo nuevamente")                          
+                    print("Recuerde que Python es Case-Sensitive, distigue las minusculas y mayusculas")                          
+        elif user == "n":
+            break
+# Modificar producto
+    while True:
+        user = input("Desea *Actualizar* el Precio y Stock de un producto y/n: ")
+        if user == "y":
+                user = input("Introduzca el nombre del producto que desea modificar:\n")
+                busqueda = False 
+                for i in range(len(producto)):
+                    if user == producto[i]:
+                        print("Su producto fue encontrado exitosamente:")
+                        print(producto[i])
+                        print("Precio:",precio[i])
+                        print("Stock:",stock[i])
+                        precio_viejo = precio[i]
+                        stock_viejo = stock[i]
+                        cambiar_precio = int(input("Ingrese el nuevo Precio\n"))
+                        precio[i] = cambiar_precio
+                        print("Genial su Precio se actualizado correctamente !")
+                        print("Su precio anterior era", precio_viejo,"y ahora es:",precio[i])
+                        cambiar_stock = int(input("Ingrese su nuevo Stock\n"))
+                        stock[i] = cambiar_stock
+                        print("Genial su Stock se actualizado correctamente !\n")
+                        print("Su Stock anterior era", stock_viejo,"y ahora es:",stock[i])
+
+                        print("Su producto se modifico exitosamente")
+                        print(producto[i])
+                        print("Precio:",precio[i])
+                        print("Stock:",stock[i])
+
+                        busqueda = True
+                if busqueda == False:
+                    print("Su producto no fue encontrado, Intentalo nuevamente")                          
+                    print("Recuerde que Python es Case-Sensitive, distigue las minusculas y mayusculas")                          
+        elif user == "n":
+            break
+# Guardar cantidad vendida
+    while True:
+        user = input("¿Desea ingresar una nueva Venta de un Producto? y/n: ")
+        if user == "y":
+                user = input("Introduzca el nombre del producto que vendio:\n")
+                busqueda = False 
+                for i in range(len(producto)):
+                    if user == producto[i]:
+                        print("Su producto fue encontrado exitosamente:")
+                        print(producto[i])
+                        print("Cuantas unidades se vendieron del producto ?",producto[i])
+                        unidades_vendidas = int(input("Ingrese la cantidad vendida\n"))
+                        stock_actual = stock[i] - unidades_vendidas
+                        venta_total = precio[i] * unidades_vendidas
+                        stock[i] = stock_actual
+                        print("El Stock actual de",producto[i])
+                        print("Es:",stock[i],"Unidades")
+                        print("La venta total del producto es de:",venta_total)
+                        busqueda = True
+                if busqueda == False:
+                    print("Su producto no fue encontrado, Intentalo nuevamente")                          
+                    print("Recuerde que Python es Case-Sensitive, distigue las minusculas y mayusculas")                          
+        elif user == "n":   
+            break
+
+# inventario actual (lo agregue, no lo pide la consigna) 
+    suma = 0
+    print("Su Inventario actual de la Tiendita es:")
+    for i in range(len(producto)):
+        print("**",producto[i],"**")
+        print("Precio:",precio[i])
+        print("Stock:",stock[i])
+        subtotal_stock = precio[i]*stock[i]
+        suma = subtotal_stock + suma
+        print("________________")
+    print("En total",len(producto),"productos")
+    print("El total del fondo de comercio (solo mercaderia) es de:",suma,"pesos")
+    print("Gracias por usar el sistema")
+    print("Asta la procsima xD")

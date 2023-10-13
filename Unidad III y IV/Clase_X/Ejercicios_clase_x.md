@@ -13,13 +13,8 @@
 4. Ingresar 10 numeros por telcado y agregarlos a una lista, los numeros ingresados pasarlos a una nueva lista pero invertidos, el numero que esta en la pos 10 pasarlo a la pso 1 de la nueva lista y imprimir ambas
 
 5. Que gestione los datos de stock de una tienda de comestibles, la información a recoger será: nombre del producto, precio, cantidad en stock.
-
 La tienda dispone de 10 productos distintos. El programa debe ser capaz de:
-
 Dar de alta un producto nuevo.
-
 Buscar un producto por su nombre.
-
 Modificar el stock y precio de un producto dado.
-
 Guardar la cantidad del producto vendido

@@ -64,19 +64,31 @@ def ingresarEmpleado():
 def listaInvertida():
     num = []
     numerosInvertidos = []
-    cont = 0
 
-    for i in range(0,3):
+    for i in range(0,10):
         user = int(input("Ingrese un número: "))
         num.append(user)
-        print(num)
-
+        # print(num)
+    # a "i" le asignamos la cantidad de elementos que tiene la lista
     i = len(num)
+    # mientras "i" sea mayor a cero que siga iterando
     while i > 0:
+        # a "i" le descontamos uno, recordemos que los arreglos empiezan a contar desde el cero
+        # y el "len" cuenta desde el 1.
+        # entonces para recorrer la lista debemos restarle 1, si colocamos la resta al final del while nos va a dar error
+        # porque la lista esta fuera de rango.
+        #  
+        # Ejemplo: la lista tiene 5 elementos, pero el indice de cada elemento se cuenta desde el 0
+        #  
+        # len(list = [A,B,C,D,E]) = 5
+        #             ^ ^ ^ ^ ^ 
+        #             0 1 2 3 4 (indice de la lista)
         i -= 1
-        print(i)        
+        # print(i)        
         invert = num[i]
         numerosInvertidos.append(invert)
-        print("nuin",numerosInvertidos)
+    print("Aqui esta la lista de sus 10 numeros:")
+    print(num)
+    print("Aqui esta la lista pero con los números invertidos:")
+    print(numerosInvertidos)
 
-listaInvertida()

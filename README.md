@@ -1,4 +1,21 @@
-# Hello World
-- Chequear el ultimo [ejercicio de la ultima clase ](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Clase_VII/funciones.py) Sobre las listas, mas que nada el "for" ver si tengo otras alternativas
+# Introducción a la Programación I
+## Clase I
+- Tuvimos la presentación de la materia
+- Vimos un poco de lógica con Psint
+- Lenguaje que vamos a aprender en esta etapa son los conceptos fundamentales de Python
 
-https://logos-world.net/wp-content/uploads/2021/10/Python-Symbol.png
+# Python
+![](https://logos-world.net/wp-content/uploads/2021/10/Python-Symbol.png)
+
+# Unidad I y II
+- Vimos de
+## Clase II y III
+## Clase IV
+## Clase V
+## Clase VI
+## Clase VII
+# Unidad II y III
+## Clase VIII
+## Clase IX
+## Clase X
+

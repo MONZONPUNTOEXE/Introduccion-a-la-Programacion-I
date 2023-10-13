@@ -40,21 +40,43 @@ def cargaYBusquedaDeNumeros():
     print(resultado_de_busqueda)
 
 # Ejercicio 3:
+def ingresarEmpleado():
+    codigosEmpleados = []
+    nombreApellidoEmpleados = []
+    sueldosEmpleados = []
+    ciclo = True
+    while ciclo:
+        codigo = input("Ingrese el codigo del empleado:\n")
+        nombre_apellido = input("Ingrese el nombre y apellido del empleado:\n")
+        sueldo = int(input("Ingrese el sueldo del empleado:\n"))
+        codigosEmpleados.append(codigo)
+        nombreApellidoEmpleados.append(nombre_apellido)
+        sueldosEmpleados.append(sueldo)
+        pregunta = input("Desea ingresar un nuevo empleado ? y/n ")
+        if pregunta == "n":
+            ciclo = False
+    print("codigos:\n", codigosEmpleados)
+    print("nombre y apellido:\n", nombreApellidoEmpleados)
+    print("sueldo:\n",sueldosEmpleados)
 
-codigosEmpleados = []
-nombreApellidoEmpleados = []
-sueldosEmpleados = []
-ciclo = True
-while ciclo:
-    codigo = input("Ingrese el codigo del empleado:\n")
-    nombre_apellido = input("Ingrese el nombre y apellido del empleado:\n")
-    sueldo = int(input("Ingrese el sueldo del empleado:\n"))
-    codigosEmpleados.append(codigo)
-    nombreApellidoEmpleados.append(nombre_apellido)
-    sueldosEmpleados.append(sueldo)
-    pregunta = input("Desea ingresar un nuevo empleado ? y/n ")
-    if pregunta == "n":
-        ciclo = False
-print("codigos:\n", codigosEmpleados)
-print("nombre y apellido:\n", nombreApellidoEmpleados)
-print("sueldo:\n",sueldosEmpleados)
+# Ejercicio 4
+
+def listaInvertida():
+    num = []
+    numerosInvertidos = []
+    cont = 0
+
+    for i in range(0,3):
+        user = int(input("Ingrese un número: "))
+        num.append(user)
+        print(num)
+
+    i = len(num)
+    while i > 0:
+        i -= 1
+        print(i)        
+        invert = num[i]
+        numerosInvertidos.append(invert)
+        print("nuin",numerosInvertidos)
+
+listaInvertida()

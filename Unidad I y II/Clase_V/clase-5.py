@@ -1,4 +1,4 @@
-##### While
+## While
 # informar los sueldos = siempre el sistema sin que se salga 
 # Ingresar por teclado el numbre del empleado, el sueldo bruto e imprimir el sueldo basico, 
 # Preguntar si desea continuar.

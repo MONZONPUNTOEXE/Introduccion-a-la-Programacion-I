@@ -89,9 +89,21 @@ promedio= pepapig/3
 print(promedio)
 ```
 ## Clase IV
+- En esta clase profundizamos los conceptos de las condicionales, los bucles exactos "for", operadores lógicos y matematicos
+- Ejercitamos buscando el maximo y segundo maximo de un lote de números y calculando sueldos usando condicionales
+- [Ejercicios de la clase IV](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Clase_IV/readme.md)
+- [Codigo del ejercicio Maximo y 2do Maximo "A" resuelto](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Clase_IV/Clase-4-tarea-A.py)
+- [Codigo del ejercicio Calcular Sueldos "B" resuelto](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Clase_IV/Clase-4-tarea-B.py)
 ## Clase V
+- Esta vuelta vimos funciones y bucles inexactos (while)
+- [Bucle inexacto while](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Clase_V/clase-5.py)
+- [Funciones](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Clase_V/clase-5-funciones.py)
 ## Clase VI
+- Vimos como crear un menu, modulo principal y archivo de funciones
+- Tambien repasamos temas vistos en clase
 ## Clase VII
+- Practicamos antes del Parcial
+- 
 # Unidad III y IV
 ## Clase VIII
 ## Clase IX

@@ -113,6 +113,7 @@ print(promedio)
   - [utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Clase_VII_Practica-para-parcial/Punto_3/utils.py)  
 # Unidad III y IV
 ## Modelo de Parcial
+> El codigo esta comentado
 - [Codigo de ejercicio 1 (Suma y Promedio de números) resuelto](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Modelo_de_Parcial/Punto_1/main.py)
 - [Codigo de ejercicio 2 (Maximos y su sumatoria) resuelto](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Modelo_de_Parcial/Punto_2/main.py)
 - [Codigo de ejercicio 3 (Sublotes de números) resuelto](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Unidad%20I%20y%20II/Modelo_de_Parcial/Punto_3)
@@ -120,8 +121,22 @@ print(promedio)
   - [negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Modelo_de_Parcial/Punto_3/negocio.py)
   - [utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Modelo_de_Parcial/Punto_3/utils.py)  
 ## Clase VIII
-- La clase fue toda practica (No realizado)
-- 
+- La clase fue toda de practica (No realizado)
+- [Enunciado del ejercicio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Clase_VIII_Practica/ejercicios_clase_VIII.md)
+- NO REALIZADO
 ## Clase IX
+- En esta clase vimos Listas
+- [Listas aspectos fundamentales](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Clase_IX/listas_clase_IX.py)
+- [Ejercicios Listas](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Unidad%20III%20y%20IV/Clase_IX)
+  - [Main](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Clase_IX/main.py)
+  - [Negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Clase_IX/funciones.py)
+  - [Menu](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Clase_IX/menu.py)
 ## Clase X
+- En esta clase profundizamos mas sobre Listas
+- [Enunciado de ejercicios de Clase X](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Clase_X/Ejercicios_clase_x.md)
+- [Codigo del Ejercicio resuelto](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Unidad%20III%20y%20IV/Clase_X)
+  - [Main](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Clase_X/main.py)
+  - [Negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Clase_X/negocio.py)
+  - [Utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Clase_X/utils.py)
+
 

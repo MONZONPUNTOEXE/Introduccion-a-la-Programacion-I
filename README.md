@@ -100,12 +100,22 @@ print(promedio)
 - [Funciones](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Clase_V/clase-5-funciones.py)
 ## Clase VI
 - Vimos como crear un menu, modulo principal y archivo de funciones
-- Tambien repasamos temas vistos en clase
+- Tambien repasamos los temas vistos en clase
 ## Clase VII
 - Practicamos antes del Parcial
-- 
+- [Enunciados de los ejercicios](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Clase_VII_Practica-para-parcial/readme.md)
+> El codigo esta comentado
+- [Codigo de ejercicio 1 (suma de números pares) resuelto](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Clase_VII_Practica-para-parcial/Punto_1/main.py)
+- [Codigo de ejercicio 2 (horas trabajadas) resuelto](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Clase_VII_Practica-para-parcial/Punto_2/main.py)
+- [Codigo de ejercicio 3 (venta de alfajores) resuelto](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Unidad%20I%20y%20II/Clase_VII_Practica-para-parcial/Punto_3)
+  - [main](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Clase_VII_Practica-para-parcial/Punto_3/main.py)
+  - [negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Clase_VII_Practica-para-parcial/Punto_3/negocio.py)
+  - [utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Clase_VII_Practica-para-parcial/Punto_3/utils.py)  
 # Unidad III y IV
+## Modelo de Parcial
+-
 ## Clase VIII
+
 ## Clase IX
 ## Clase X
 

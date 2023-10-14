@@ -2,7 +2,7 @@
 - Lenguaje que vamos a aprender en esta etapa son los conceptos fundamentales de Python
 # Python
 ![](https://logos-world.net/wp-content/uploads/2021/10/Python-Symbol.png)
-- Contenidos:
+Contenidos:
 - [Unidad I y II](#unidad-i-y-ii)
   - [Clase I](#clase-i)
   - [Clase II y III](#clase-ii-y-iii)

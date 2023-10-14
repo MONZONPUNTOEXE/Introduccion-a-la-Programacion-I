@@ -22,6 +22,7 @@
 - Tuvimos la presentación de la materia
 - Vimos un poco de lógica con Psint
 ## [Clase II y III](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Unidad%20I%20y%20II/Clase_II_y_III)
+> - En esta clase dimos nuestros primeros pasos con las condicionales e iteraciones exactas.
 > Aprendimos a Declarar las variables:
 ```
 numero = 10

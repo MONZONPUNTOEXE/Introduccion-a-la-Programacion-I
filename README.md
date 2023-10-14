@@ -22,7 +22,8 @@
 - Tuvimos la presentación de la materia
 - Vimos un poco de lógica con Psint
 ## [Clase II y III](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Unidad%20I%20y%20II/Clase_II_y_III)
-> - En esta clase dimos nuestros primeros pasos con las condicionales e iteraciones exactas.
+> - En esta clase dimos nuestros primeros pasos con las condicionales e iteraciones exactas.<br>
+> - [Codigo de la actividad](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Clase_II_y_III/app.py)<br>
 > Aprendimos a Declarar las variables:
 ```
 numero = 10
@@ -42,13 +43,15 @@ total = suma/3
 print ( "la suma es ", suma)
 print ("el promedio es", total)
 ```
-> Condicionales
+> Condicionales<br>
+> - [Codigo de la actividad](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Clase_II_y_III/app.py)
 ```
 numero = 12
 if numero > 15: print ("Es mayor")
 else: print("el numero es menor")
 ```
 - Todo junto se veria así
+> - [Codigo de la actividad](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Clase_II_y_III/app3.py)
 ```
 ## Declaracion de las variables
 # nota = 2
@@ -72,6 +75,7 @@ elif promedio >= 4 and promedio <= 6 : print("Aprueba");
 else: print("Recursa");
 ```
 > Iteraciones exactas con "for"
+> - [Codigo de la actividad](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Clase_II_y_III/app4.py)
 ```
 numero = 0
 pepapig = 0
@@ -84,7 +88,6 @@ for i in range (0,3):
 promedio= pepapig/3
 print(promedio)
 ```
-
 ## Clase IV
 ## Clase V
 ## Clase VI

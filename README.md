@@ -113,9 +113,15 @@ print(promedio)
   - [utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Clase_VII_Practica-para-parcial/Punto_3/utils.py)  
 # Unidad III y IV
 ## Modelo de Parcial
--
+- [Codigo de ejercicio 1 (Suma y Promedio de números) resuelto](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Modelo_de_Parcial/Punto_1/main.py)
+- [Codigo de ejercicio 2 (Maximos y su sumatoria) resuelto](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Modelo_de_Parcial/Punto_2/main.py)
+- [Codigo de ejercicio 3 (Sublotes de números) resuelto](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Unidad%20I%20y%20II/Modelo_de_Parcial/Punto_3)
+  - [main](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Modelo_de_Parcial/Punto_3/main.py)
+  - [negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Modelo_de_Parcial/Punto_3/negocio.py)
+  - [utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Modelo_de_Parcial/Punto_3/utils.py)  
 ## Clase VIII
-
+- La clase fue toda practica (No realizado)
+- 
 ## Clase IX
 ## Clase X
 

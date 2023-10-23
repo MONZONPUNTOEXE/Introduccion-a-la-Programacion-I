@@ -9,3 +9,9 @@ def buscarproducto(codigo)
             valor = i
 
     return valor
+
+# Ordenamiento
+- Metodo de burbujeo
+- Tenemos que ir iterando entre numeros y si el numero de izquierda es < a el de la derecha invertimos
+[ 70 90 0 80 60 85 ]
+

@@ -1,6 +1,7 @@
 # Clase x mejorar
 - Debo agregarle el lista codigo
-- Debo agregar return
+- Debo agregar return como se muestra en el siguiente modelo
+
 
 def buscarproducto(codigo)
     for i in range (0,len(listacodigo))
@@ -10,8 +11,12 @@ def buscarproducto(codigo)
 
     return valor
 
+# Clase XI
+
 # Ordenamiento
 - Metodo de burbujeo
-- Tenemos que ir iterando entre numeros y si el numero de izquierda es < a el de la derecha invertimos
+- Tenemos que ir iterando entre numeros y si el numero de izquierda es < a el de la derecha invertimos los lugares
 [ 70 90 0 80 60 85 ]
+
+- Lo resuelvo en el clase_xi.py
 

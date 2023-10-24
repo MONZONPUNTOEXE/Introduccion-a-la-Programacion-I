@@ -1,11 +1,13 @@
 import utils
 
+global codigo
+codigo = ["001","002","003","004"]
 global producto
-producto = ["Arroz","Fideo","Galletas","Pan","Gaseosa","Cerveza","Jugo","Leche","Manteca","Queso"]
+producto = ["Arroz","Fideo","Galletas","Pan"]
 global precio
-precio = [430,440,330,1000,450,1000,140,500,558,1050]
+precio = [430,440,330,1000]
 global stock
-stock = [5,4,35,6,45,65,63,7,34,65]
+stock = [5,4,35,6]
 
 # Ejercicio 1
 def IngresarSueldo():
@@ -125,12 +127,15 @@ def listaInvertida():
 # Dar de alta un producto nuevo
 def agregarProducto():
         while True:
+            coodigoNuevo = input("Ingrese el Código:\n")
             productoNuevo = input("Ingrese el nombre del producto:\n")
             precioNuevo = int(input("Ingrese el precio del producto:\n"))
             stockNuevo = int(input("Ingrese el stock actual del producto:\n"))
+            codigo.append(coodigoNuevo)
             producto.append(productoNuevo)
             precio.append(precioNuevo)
-            stock.append(stockNuevo)
+            stock.append(stockNuevo)            
+            print(codigo)
             print(producto)
             print(precio)
             print(stock)
@@ -142,12 +147,13 @@ def agregarProducto():
 def buscarProducto():
         # La funcionalidad de "busqueda False y True". No pedia el enunciado, pero se lo agregue
         while True:
-            user = input("Introduzca el nombre del producto que desea buscar:\n")
+            user = input("Introduzca el código del producto que desea buscar:\n")
             busqueda = False #Esta funcionalidad no estaba en el enunciado
-            for i in range(len(producto)): #Con que encuentre las listas es mas que suficiente
-                if user == producto[i]:
+            for i in range(len(codigo)): #Con que encuentre las listas es mas que suficiente
+                if user == codigo[i]:
                     print("Su producto fue encontrado exitosamente:")
-                    print(producto[i])
+                    print("Código: ",codigo[i])
+                    print("Nombre: ", producto[i])
                     print("Precio:",precio[i])
                     print("Stock:",stock[i])
                     busqueda = True

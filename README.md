@@ -145,3 +145,11 @@ print(promedio)
   - [Enunciado de ejercicios de Clase XI](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Clase_XI/readme.md)
   - [Codigo del Ejercicio Clase XI](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Clase_XI/clase_xi.py)
   - [Codigo del Profesor sobre Return Clase XI](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Clase_XI/codigo_profesor.py)
+## Modelo Segundo Parcial
+> Segundo Parcial del 1er Turno
+- [Carpeta Completa Parcial II](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial)
+
+  - [Enunciado del Parcial II](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/readme.md)
+ - [Main](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/main.py)
+  - [Negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/negocio.py)
+  - [Utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/utils.py)

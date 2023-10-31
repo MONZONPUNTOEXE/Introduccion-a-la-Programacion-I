@@ -15,7 +15,7 @@ Contenidos:
   - [Clase IX](#clase-ix)
   - [Clase X](#clase-x)
   - [Clase XI](#clase-xi)
-  - [Clase XII](#clase-xii)
+  - [Modelo de Parcial](#modelo-segundo-parcial)
 
 # Unidad I y II
 ## Clase I

@@ -18,3 +18,6 @@ Dar de alta un producto nuevo.
 Buscar un producto por su nombre.
 Modificar el stock y precio de un producto dado.
 Guardar la cantidad del producto vendido
+
+6. Necesitamos ordenar esta lista de menor a mayor
+   lista = [70,90 ,0, 80,60,85]

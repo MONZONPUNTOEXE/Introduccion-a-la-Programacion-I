@@ -38,11 +38,7 @@ en listas separadas.
 
 Los productos de ventas el sistema tiene guardado (nombre de producto, codigo, precio y cantidad)
 
-
-
-
-
-ventas.
+Ventas:
 
 A.Cuando se vende un consumidor final mostrar por pantalla el total de la venta y guardarlo en sus listas.
 

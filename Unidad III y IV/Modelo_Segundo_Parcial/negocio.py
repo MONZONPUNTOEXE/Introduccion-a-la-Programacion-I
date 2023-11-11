@@ -2,13 +2,14 @@
 codigo_cliente = []
 nombre_cliente = []
 
+
 # Lista productos
 codigo_producto = []
 nombre_producto = []
 precio_producto = []
 stock_producto = []
 
-# Lista de las ventas a C.F
+# Lista de las ventas a C.Final
 nombreClienteVentaCF = []
 cantidadDeProductoClienteVentaCF = []
 precioDeProductoClienteVentaCF = []
@@ -16,6 +17,8 @@ ventaConsumidorFinal = []
 
 # Lista de ventas a Clientes
 ventasCliente = []
+nombreVentaCliente = []
+nombreProductoVentaCliente = []
 
 def cargarCliente():
     while True:
@@ -49,6 +52,7 @@ def buscarProducto(codigo):
             return i
     return -1
 
+
 def ventaFinal():
     while True:
         nombreClienteVentaCF.append(input('Ingrese el nombre del C.Final: '))
@@ -64,7 +68,14 @@ def ventaFinal():
                 print('El total de venta es:')
                 print(totalVenta)
                 ventaConsumidorFinal.append(totalVenta)
-                venta - stock_producto[codigo]
+                stock_producto[codigo] = stock_producto[codigo] - venta
+                cantidadDeProductoClienteVentaCF.append(venta)
+                precioDeProductoClienteVentaCF.append(precio_producto[codigo])
+
+                print(ventasCliente)
+                print(nombreVentaCliente)
+                print(nombreProductoVentaCliente)
+
         pregunta = input("Desea ingresar otro producto s/n: ")
         if pregunta == "n":
             break
@@ -72,25 +83,47 @@ def ventaFinal():
 def ventaCliente():
     while True: 
         cliente = int(input("Ingrese el código del cliente que le desea vender"))
-        codigo = buscarCliente(cliente)
-        if cliente == codigo_cliente[codigo]:
-            print("Su cliente es", nombre_cliente[codigo])
+        posCliente = buscarCliente(cliente)
+        if cliente == codigo_cliente[posCliente]:
+            print("Su cliente es", nombre_cliente[posCliente])
         user = int(input("Ingrese el código del producto que desea vender"))
-        codigo = buscarProducto(user)
-        if user == codigo_producto[codigo]:
-            print("Su producto es", nombre_producto[codigo])
+        posProducto = buscarProducto(user)
+        if user == codigo_producto[posProducto]:
+            print("Su producto es", nombre_producto[posProducto])
             venta = int(input("cuanto desea vender"))
-            if venta > stock_producto[codigo]:
+            if venta > stock_producto[posProducto]:
                 print("Su venta no se puede realizar, excede el maximo de Stock")
             else:
-                totalVenta2 = venta * precio_producto[codigo]
+                totalVenta2 = venta * precio_producto[posProducto]
+                print('El total de venta es:')
                 print(totalVenta2)
                 ventasCliente.append(totalVenta2)
-                venta - stock_producto[codigo]
+                stock_producto[posProducto] = stock_producto[posProducto] - venta
+                nombreVentaCliente.append(nombre_cliente[posCliente])
+                nombreProductoVentaCliente.append(nombre_producto[posCliente])
 
-        pregunta = input("Desea ingresar otro producto s/n: ")
+        pregunta = input("Desea vender otro producto s/n: ")
         if pregunta == "n":
             break
+
+
+
+def buscarVentaCliente():
+    while True:
+        user = int(input('Ingrese el codigo del cliente '))
+        pos = buscarCliente(user)
+        if user == codigo_cliente[pos]:
+            print(f'Su cliente es: {nombreVentaCliente[pos]}')
+            print(f'Su sus producto es: {nombreProductoVentaCliente[pos]}')
+
+        else:
+            print('No encontramos tu cliente, intentalo nuevamente')
+          
+        user = input('Desea hacer otra busqueda ? s/n ')
+        if user == "n":
+            break
+
+
 
 
 

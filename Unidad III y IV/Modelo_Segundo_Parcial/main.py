@@ -18,7 +18,7 @@ while True:
     elif user == 6:
          negocio.listarProductos()        
     elif user == 7:
-        negocio.busquedaCliente()
+        negocio.buscarVentaCliente()
     elif user == 8:
         negocio.listarProductosSort()
     elif user == 9:

@@ -1,13 +1,21 @@
+# Lista clientes
 codigo_cliente = []
 nombre_cliente = []
 
+# Lista productos
 codigo_producto = []
 nombre_producto = []
 precio_producto = []
 stock_producto = []
 
+# Lista de las ventas a C.F
+nombreClienteVentaCF = []
+cantidadDeProductoClienteVentaCF = []
+precioDeProductoClienteVentaCF = []
 ventaConsumidorFinal = []
-ventaCliente = []
+
+# Lista de ventas a Clientes
+ventasCliente = []
 
 def cargarCliente():
     while True:
@@ -43,15 +51,17 @@ def buscarProducto(codigo):
 
 def ventaFinal():
     while True:
-        user = int(input("Ingrese el código del producto que desea vender"))
+        nombreClienteVentaCF.append(input('Ingrese el nombre del C.Final: '))
+        user = int(input("Ingrese el código del producto que desea vender: "))
         codigo = buscarProducto(user)
         if user == codigo_producto[codigo]:
             print("Su producto es", nombre_producto[codigo])
-            venta = int(input("cuanto desea vender"))
+            venta = int(input("cuanto desea vender "))
             if venta > stock_producto[codigo]:
                 print("Su venta no se puede realizar, excede el maximo de Stock")
             else:
                 totalVenta = venta * precio_producto[codigo]
+                print('El total de venta es:')
                 print(totalVenta)
                 ventaConsumidorFinal.append(totalVenta)
                 venta - stock_producto[codigo]
@@ -75,7 +85,7 @@ def ventaCliente():
             else:
                 totalVenta2 = venta * precio_producto[codigo]
                 print(totalVenta2)
-                ventaCliente.append(totalVenta2)
+                ventasCliente.append(totalVenta2)
                 venta - stock_producto[codigo]
 
         pregunta = input("Desea ingresar otro producto s/n: ")

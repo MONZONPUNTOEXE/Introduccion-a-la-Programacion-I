@@ -1,9 +1,9 @@
 # Codigo del profesor agregar, buscar, modificar productos
 
-listaCodigo = []
-listaDescripcion = []
-listaPrecio = []
-listaStock = []
+listaCodigo = [1, 2,3,4]
+listaDescripcion = ['perro','gato','mosquito','efelante']
+listaPrecio = [456,4546,78,456687]
+listaStock = [100,844,84,45]
 listaVentas = []
 
 
@@ -68,6 +68,12 @@ def actualizarProducto(codigo):
 
 
 
+
+print(listaCodigo)
+print(listaDescripcion)
+print(listaPrecio)
+print(listaStock) 
+print(listaVentas)
 
 
 menu = """

@@ -1,14 +1,14 @@
 # Lista clientes
-codigo_cliente = [1,2]
-nombre_cliente = ['Franco','Matias']
-descripcion_cliente = ['Es buen pibe','La tiene clasra']
+codigo_cliente = []
+nombre_cliente = []
+descripcion_cliente = []
 
 
 # Lista productos
-codigo_producto = [1,2,3,4]
-nombre_producto = ['Bolita','Bulon','Lapiz','Comida']
-precio_producto = [100,200,300,400]
-stock_producto = [30,20,50,60]
+codigo_producto = []
+nombre_producto = []
+precio_producto = []
+stock_producto = []
 
 # Lista de las ventas a C.Final
 nombreClienteVentaCF = []
@@ -101,8 +101,12 @@ def ventaCliente():
                 # si el stock del producto es mayor no se realiza la venta
                 print("Su venta no se puede realizar, excede el maximo de Stock")
             else:
-                # si el stock es producto es menor
-                # registramos el codigo del cliente en una lista 
+                # si el producto se puede vender
+                # es porque el stock del producto es menor a la cantidad 
+                # que el usurio quiere comprar
+                  
+                # Registramos el codigo del cliente en una lista 
+                # Esto se hace para, identificar que productos compro
                 codigoVentaCliente.append(codigo_cliente[posCliente])
                 comprasDelClienteActual = []
 
@@ -125,18 +129,21 @@ def ventaCliente():
                     print(f'El total de venta es más el {descuento}% es:')
                     print(totalVenta2)
                     stock_producto[posProducto] = stock_producto[posProducto] - venta
-
+                    
+                    # Guardamos 
+                    # Nombre del producto:
+                    # Para luego buscarlo por el codigo del cliente que habiamos guardado antes
+                    # Guardamos precio, total etc
                     nombreProductoVentaCliente.append(nombre_producto[posProducto])
                     ventaPrecioProductoCliente.append(precio_producto[posProducto])
                     ventaCantidadProductoCliente.append(venta)
                     ventasClienteTotal.append(totalVenta2)
-
-                    print(codigoVentaCliente)
-                    print(nombreProductoVentaCliente)
-                    print(ventaCantidadProductoCliente)
-                    print(ventaPrecioProductoCliente)
-                    print(ventasClienteTotal)
-
+                    # Cuendo iteremos la lista "Codigo venta cliente" vamos a tener:
+                    # La lista de los codigos de los clientes que hicieron la compra
+                    # Tambien en la misma posicion van a estar los productos, precios que guardamos
+                    # Cuando guardamos el codigo cliente
+                    # Por lo tanto, cuando busquemos x codigo cliente nos aparecera los productos que compro
+                    # el precio y cantidad etc
 
                 else:                
                     totalVenta2 = venta * precio_producto[posProducto]
@@ -147,12 +154,6 @@ def ventaCliente():
                     ventaPrecioProductoCliente.append(precio_producto[posProducto])
                     ventaCantidadProductoCliente.append(venta)
                     ventasClienteTotal.append(totalVenta2)
-
-                    print(codigoVentaCliente)
-                    print(nombreProductoVentaCliente)
-                    print(ventaCantidadProductoCliente)
-                    print(ventaPrecioProductoCliente)
-                    print(ventasClienteTotal)
 
         pregunta = input("Desea vender otro producto s/n: ")
         if pregunta == "n":
@@ -166,8 +167,12 @@ def buscarVentaCliente():
             print(f'Su cliente es: {nombre_cliente[pos]}')
             print(f'Descripcion: {descripcion_cliente[pos]}')
             print(f'Los productos que compro {nombre_cliente[pos]} son:')
+            # Iteranos la lista productoVentaCliente que tiene la lista de los productos que compro el cliente
             for i in range(len(nombreProductoVentaCliente)):
                 if codigo_cliente[pos] == codigoVentaCliente[i]:
+                    # cada vez que el codigo del cliente que buscamos anteriormente
+                    # Sea igual al codigo cliente de la venta
+                    # Decimos que nos de la posiscion y muestre Precio, Cantidad, Total, de venta que hizo ese cliente  
                     print('****************************')
                     print(nombreProductoVentaCliente[i])
                     print(f'Precio de producto: {ventaPrecioProductoCliente[i]}')

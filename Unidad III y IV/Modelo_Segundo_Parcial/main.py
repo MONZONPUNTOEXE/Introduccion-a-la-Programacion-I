@@ -3,7 +3,7 @@ import negocio
 
 while True:
     utils.imprimirMenu()
-    user = int(input("Ingrese la venta que desea realizar\nIngrese 7 para salir"))
+    user = int(input("Ingrese la venta que desea realizar\nIngrese 9 para salir"))
 
     if user == 1:
         negocio.cargarCliente()

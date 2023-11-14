@@ -15,7 +15,12 @@ Contenidos:
   - [Clase IX](#clase-ix)
   - [Clase X](#clase-x)
   - [Clase XI](#clase-xi)
-  - [Modelo de Parcial](#modelo-segundo-parcial)
+- [Modelos de Parcial](#)
+  - [Primer Parcial](#)
+  - [Segundo Parcial](#)
+  - [Recuperatorio de Primer y Segundo Parcial](#)
+  - [Integrador](#)
+  - [Final](#)
 
 # Unidad I y II
 ## Clase I
@@ -54,9 +59,9 @@ else: print("el numero es menor")
 > - [Codigo de la actividad](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Clase_II_y_III/app3.py)
 ```
 ## Declaracion de las variables
-# nota = 2
-# nota1 = 4
-# nota2 = 4
+ nota = 2
+ nota1 = 4
+ nota2 = 4
 
 nota = int(input(4))
 nota1 = int(input(5))
@@ -87,7 +92,7 @@ for i in range (0,3):
 
 promedio= pepapig/3
 print(promedio)
-```
+
 ## Clase IV
 - En esta clase profundizamos los conceptos de las condicionales, los bucles exactos "for", operadores lógicos y matematicos
 - Ejercitamos buscando el maximo y segundo maximo de un lote de números y calculando sueldos usando condicionales
@@ -145,6 +150,34 @@ print(promedio)
   - [Enunciado de ejercicios de Clase XI](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Clase_XI/readme.md)
   - [Codigo del Ejercicio Clase XI](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Clase_XI/clase_xi.py)
   - [Codigo del Profesor sobre Return Clase XI](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Clase_XI/codigo_profesor.py)
+
+## Modelos de Parciales
+
+> Primer Parcial
+- [Carpeta Completa Parcial II](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial)
+
+  - [Enunciado del Parcial II](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/readme.md)
+ - [Main](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/main.py)
+  - [Negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/negocio.py)
+  - [Utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/utils.py)
+## Modelo Segundo Parcial
+> Segundo Parcial del 1er Turno
+- [Carpeta Completa Parcial II](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial)
+
+  - [Enunciado del Parcial II](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/readme.md)
+ - [Main](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/main.py)
+  - [Negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/negocio.py)
+  - [Utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/utils.py)
+
+## Modelo Segundo Parcial
+> Segundo Parcial del 1er Turno
+- [Carpeta Completa Parcial II](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial)
+
+  - [Enunciado del Parcial II](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/readme.md)
+ - [Main](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/main.py)
+  - [Negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/negocio.py)
+  - [Utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/utils.py)
+
 ## Modelo Segundo Parcial
 > Segundo Parcial del 1er Turno
 - [Carpeta Completa Parcial II](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial)

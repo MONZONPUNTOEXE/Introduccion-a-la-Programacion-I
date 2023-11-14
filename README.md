@@ -15,12 +15,13 @@ Contenidos:
   - [Clase IX](#clase-ix)
   - [Clase X](#clase-x)
   - [Clase XI](#clase-xi)
-- [Modelos de Parcial](#)
-  - [Primer Parcial](#)
-  - [Segundo Parcial](#)
-  - [Recuperatorio de Primer y Segundo Parcial](#)
-  - [Integrador](#)
-  - [Final](#)
+- [Modelos de Parcial](#modelos-de-parcial)
+  - [Primer Parcial](#primer-parcial)
+  - [Segundo Parcial](#segundo-parcial)
+  - [Recuperatorio del Primer Parcial](#recuperatorio-del-primer-parcial)
+  - [Recuperatorio del Segundo Parcial](#recuperatorio-del-segundo-parcial)
+  - [Integrador](#examen-integrador)
+  - [Final](#examen-final)
 
 # Unidad I y II
 ## Clase I
@@ -179,17 +180,17 @@ print(promedio)
   - [Utils](noExist)
 ### Examen Integrador
 > Proximamente...
-- [Carpeta del Integrador](noExist)
+- [Carpeta del Integrador](#examen-integrador)
 
-  - [Enunciado](noexist)
-  - [Main](noexist)
-  - [Negocio](noexist)
-  - [Utils](noexist)
+  - [Enunciado](#examen-integrador)
+  - [Main](#examen-integrador)
+  - [Negocio](#examen-integrador)
+  - [Utils](#examen-integrador)
 ### Examen Final
-> Proximamente
-- [Carpeta del Recuperatoio II](noExist)
+> Proximamente...
+- [Carpeta del Recuperatoio II](#examen-final)
 
-  - [Enunciado](noExist)
-  - [Main](noExist)
-  - [Negocio](noExist)
-  - [Utils](noExist)
+  - [Enunciado](#examen-final)
+  - [Main](#examen-final)
+  - [Negocio](#examen-final)
+  - [Utils](#examen-final)

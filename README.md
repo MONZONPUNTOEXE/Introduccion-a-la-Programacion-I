@@ -165,7 +165,31 @@ print(promedio)
 ### Recuperatorio del Primer Parcial 
 - [Carpeta del Recuperatoio I](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Modelos%20de%20Parcial/Modelo%20Segundo%20Parcial)
 
-  - [Enunciado](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Segundo%20Parcial/readme.md)
-  - [Main](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Segundo%20Parcial/main.py)
-  - [Negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Segundo%20Parcial/negocio.py)
-  - [Utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Segundo%20Parcial/utils.py)
+  - [Enunciado](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Recuperatorio%20Primer%20Parcial/readme.md)
+  - [Main](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Recuperatorio%20Primer%20Parcial/main.py)
+  - [Negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Recuperatorio%20Primer%20Parcial/negocio.py)
+  - [Utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Recuperatorio%20Primer%20Parcial/utils.py)
+### Recuperatorio del Segundo Parcial
+> Como habia muchos alumnos que tenian que recuperar el primer y segundo parcial el profesor tomó los dos parciales en uno solo. Integrando todos los temas de la cursada en un solo parcial 
+- [Carpeta del Recuperatorio II]()
+
+  - [Enunciado](noExist)
+  - [Main](noExist)
+  - [Negocio](noExist)
+  - [Utils](noExist)
+### Examen Integrador
+> Proximamente...
+- [Carpeta del Integrador](noExist)
+
+  - [Enunciado](noexist)
+  - [Main](noexist)
+  - [Negocio](noexist)
+  - [Utils](noexist)
+### Examen Final
+> Proximamente
+- [Carpeta del Recuperatoio II](noExist)
+
+  - [Enunciado](noExist)
+  - [Main](noExist)
+  - [Negocio](noExist)
+  - [Utils](noExist)

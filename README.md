@@ -137,34 +137,35 @@ print(promedio)
   - [Utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Clase_X/utils.py)
 ## Clase XI
 > En esta clase aprendimos sobre ORDENAMIENTO y Return más a fondo
-- [Carpeta Completa de la Clase XI](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Clase_XI)
+- [Carpeta de la Clase XI](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Clase_XI)
 
   - [Enunciado de ejercicios de Clase XI](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Clase_XI/readme.md)
   - [Codigo del Ejercicio Clase XI](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Clase_XI/clase_xi.py)
   - [Codigo del Profesor sobre Return Clase XI](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Clase_XI/codigo_profesor.py)
 # Modelos de Parcial
-> Primer Parcial
+### Primer Parcial
 > El Código esta comentado
-- [Carpeta Completa Parcial I](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial)
+- [Carpeta del Parcial I](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Modelos%20de%20Parcial/Modelo%20Primer%20Parcial)
 
-  - [Enunciado](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/readme.md)
-  - [Punto I](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/main.py)
-  - [Punto II](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/negocio.py)
-  - [Punto III](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/utils.py)
-    - [main](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Modelo_de_Parcial/Punto_3/main.py)
-    - [negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Modelo_de_Parcial/Punto_3/main.py)
-    - [utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Modelo_de_Parcial/Punto_3/main.py)
-- [Codigo de ejercicio 1 (Suma y Promedio de números) resuelto](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Modelo_de_Parcial/Punto_1/main.py)
-- [Codigo de ejercicio 2 (Maximos y su sumatoria) resuelto](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Modelo_de_Parcial/Punto_2/main.py)
-- [Codigo de ejercicio 3 (Sublotes de números) resuelto](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Unidad%20I%20y%20II/Modelo_de_Parcial/Punto_3)
-  - [main](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Modelo_de_Parcial/Punto_3/main.py)
-  - [negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Modelo_de_Parcial/Punto_3/negocio.py)
-  - [utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20I%20y%20II/Modelo_de_Parcial/Punto_3/utils.py)  
-## Modelo Segundo Parcial
-> Segundo Parcial del 1er Turno
-- [Carpeta Completa Parcial II](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial)
+  - [Enunciado](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Modelos%20de%20Parcial/Modelo%20Primer%20Parcial/Punto_1)
+  - [Punto I: Código de ejercicio 1 (Suma y Promedio de números) resuelto](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Modelos%20de%20Parcial/Modelo%20Primer%20Parcial/Punto_2)
+  - [Punto II Código de ejercicio 2 (Maximos y su sumatoria) resuelto](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Modelos%20de%20Parcial/Modelo%20Primer%20Parcial/Punto_2)
+  - [Punto III Código de ejercicio 3 (Sublotes de números) resuelto](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Modelos%20de%20Parcial/Modelo%20Primer%20Parcial/Punto_3)
+    - [main](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Primer%20Parcial/Punto_3/main.py)
+    - [negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Primer%20Parcial/Punto_3/negocio.py)
+    - [utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Primer%20Parcial/Punto_3/utils.py)
 
-  - [Enunciado del Parcial II](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/readme.md)
- - [Main](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/main.py)
-  - [Negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/negocio.py)
-  - [Utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Unidad%20III%20y%20IV/Modelo_Segundo_Parcial/utils.py)
+### Segundo Parcial 
+- [Carpeta del Parcial II](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Modelos%20de%20Parcial/Modelo%20Segundo%20Parcial)
+
+    - [Enunciado](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Segundo%20Parcial/readme.md)
+  - [Main](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Segundo%20Parcial/main.py)
+  - [Negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Segundo%20Parcial/negocio.py)
+  - [Utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Segundo%20Parcial/utils.py)
+### Recuperatorio del Primer Parcial 
+- [Carpeta del Recuperatoio I](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Modelos%20de%20Parcial/Modelo%20Segundo%20Parcial)
+
+  - [Enunciado](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Segundo%20Parcial/readme.md)
+  - [Main](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Segundo%20Parcial/main.py)
+  - [Negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Segundo%20Parcial/negocio.py)
+  - [Utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Segundo%20Parcial/utils.py)

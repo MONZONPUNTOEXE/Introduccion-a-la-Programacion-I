@@ -171,13 +171,13 @@ print(promedio)
   - [Negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Recuperatorio%20Primer%20Parcial/negocio.py)
   - [Utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Recuperatorio%20Primer%20Parcial/utils.py)
 ### Recuperatorio del Segundo Parcial
-> Como habia muchos alumnos que tenian que recuperar el primer y segundo parcial el profesor tomó los dos parciales en uno solo. Integrando todos los temas de la cursada en un solo parcial 
-- [Carpeta del Recuperatorio II]()
+> Como habia alumnos que tenian que recuperar el primer y segundo parcial el profesor tomó los dos parciales en uno solo. Integrando todos los temas de la cursada en un solo parcial 
+- [Carpeta del Recuperatorio II](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Modelos%20de%20Parcial/Modelo%20Recuperatorio%20Segundo%20Parcial)
 
-  - [Enunciado](noExist)
-  - [Main](noExist)
-  - [Negocio](noExist)
-  - [Utils](noExist)
+  - [Enunciado](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Recuperatorio%20Segundo%20Parcial/readme.md)
+  - [Main](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Recuperatorio%20Segundo%20Parcial/main.py)
+  - [Negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Recuperatorio%20Segundo%20Parcial/negocio.py)
+  - [Utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Recuperatorio%20Segundo%20Parcial/utils.py)
 ### Examen Integrador
 > Proximamente...
 - [Carpeta del Integrador](#examen-integrador)
@@ -188,7 +188,7 @@ print(promedio)
   - [Utils](#examen-integrador)
 ### Examen Final
 > Proximamente...
-- [Carpeta del Recuperatoio II](#examen-final)
+- [Carpeta del Final](#examen-final)
 
   - [Enunciado](#examen-final)
   - [Main](#examen-final)

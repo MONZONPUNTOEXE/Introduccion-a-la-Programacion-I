@@ -1,16 +1,16 @@
 # listas Productos
-codigo_producto = [1]
-nombre_producto = ['actron']
-marca_producto = ['bayer']
-precio_producto = [200] 
-stock_producto = [20]
+codigo_producto = []
+nombre_producto = []
+marca_producto = []
+precio_producto = [] 
+stock_producto = []
 
 # listas Clientes
-codigo_cliente = [11]
-nombre_cliente = ['franco']
-apellido_cliente = ['monzon']
-obraSocial_cliente = ['n'] 
-nombreObraSocial_cliente = ['nada']
+codigo_cliente = []
+nombre_cliente = []
+apellido_cliente = []
+obraSocial_cliente = [] 
+nombreObraSocial_cliente = []
 
 # listas Ventas
 # listas Ventas por Cliente

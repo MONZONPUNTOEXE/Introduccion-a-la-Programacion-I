@@ -1,43 +1,31 @@
+import utils
 import negocio
-# import menu
-while True:
-    #menu.imprimirMenu()
-    user = int(input("Ingrese el numero que desea realizar"))
-    print("hola")
+
+while True: 
+    utils.imprimirMenu()
+    user = int(input('Ingrese la opcion que desea realizar: '))
     if user == 1:
-        negocio.gestionDeEmpleados()
-        print(negocio.codigo_empleado)        
-        print(negocio.nombre_empleado)        
-        print(negocio.sueldo_empleado)
-
-        search = int(input("Ingrese el codigo del empleado que desea buscar: "))
-        def busquedaDeEmpleados(codigo):
-            for i in range(0,len(negocio.codigo_empleado)):
-                if codigo == negocio.codigo_empleado[i]:
-                    return i
-            return -1
-        
-        resultado = busquedaDeEmpleados(search)
-        if resultado == -1:
-            print("No se encontro su empleado")
-        elif resultado >= 0:  
-            print("Su empleados se encontro exitosamente")
-            print("Su empleado es:", negocio.nombre_empleado)
-            print("Su sueldo es:", negocio.sueldo_empleado)
-        
-
+        negocio.cargarCliente()
     if user == 2:
-        print("Elija una opcion correcta2")
+        negocio.cargarProducto()
     if user == 3:
-        print("Elija una opcion correcta34")
+        negocio.cargarVenta()
     if user == 4:
-        print("Elija una opcion correcta4")
+        print('no realizado')
     if user == 5:
-        print("Elija una opcion correcta5")
+        print('no realizado')
     if user == 6:
-        print("Elija una opcion correcta6")
+        print('no realizado')
     if user == 7:
-        print("Elija una opcion correcta6")
+        print('no realizado')
+    if user == 8:
+        print('no realizado')
+    if user == 9:
+        print('no realizado')
+    if user == 10:
+        print('no realizado')
+    if user == 11:
+        print('opcion')
+    if user == 12:
+        print('Gracias por utilizar el sistema !')
         break
-
-  

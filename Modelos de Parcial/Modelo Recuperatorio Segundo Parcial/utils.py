@@ -1,16 +1,16 @@
-menu = """
-Bienvenido, ingrese un numero segun estas opciones:
+menu = '''
+Bienvenido a la Farmacia !
 
-1 - Ingresar Producto 
-2 - Ingresar Cliente 
-3 - Ingresar Venta
-4 - Mostrar Venta
-5 - Mostrar Ventas por Cliente
-6 - Mostrar Clientes sin Obra social
-7 - Mostrar la venta Maxima y segundo Maximo
-8 - Salir
-
-"""
+1 - Cargar Cliente
+2 - Cargar Producto
+3 - Cargar Venta Cliente
+4 - Ventas Ordenadas
+5 - Promedio de las Ventas
+6 - Cantidad de Clientes sin Obra Social 
+7 - Mostrar Cliente y Venta con el valor Maximo  
+8 - Mostrar venta con el 1er y 2do Maximo
+9 - Salir
+'''
 
 def imprimirMenu():
     print(menu)

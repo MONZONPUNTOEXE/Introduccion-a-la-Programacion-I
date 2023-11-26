@@ -163,6 +163,15 @@ print(promedio)
   - [Main](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Segundo%20Parcial/main.py)
   - [Negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Segundo%20Parcial/negocio.py)
   - [Utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Segundo%20Parcial/utils.py)
+
+### Código del Profe Segundo Parcial
+
+- [Carpeta del Código](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Modelos%20de%20Parcial/Codigo%20del%20Profesor%20Segundo%20Parcial)
+
+    - [Enunciado](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Segundo%20Parcial/readme.md)
+  - [Main](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Codigo%20del%20Profesor%20Segundo%20Parcial/main.py)
+  - [Negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Codigo%20del%20Profesor%20Segundo%20Parcial/negocio.py)
+
 ### Recuperatorio del Primer Parcial 
 - [Carpeta del Recuperatoio I](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Modelos%20de%20Parcial/Modelo%20Segundo%20Parcial)
 
@@ -178,6 +187,8 @@ print(promedio)
   - [Main](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Recuperatorio%20Segundo%20Parcial/main.py)
   - [Negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Recuperatorio%20Segundo%20Parcial/negocio.py)
   - [Utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Recuperatorio%20Segundo%20Parcial/utils.py)
+
+
 ### Examen Integrador
 > Proximamente...
 - [Carpeta del Integrador](#examen-integrador)

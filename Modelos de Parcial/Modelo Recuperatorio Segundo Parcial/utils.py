@@ -7,7 +7,7 @@ Bienvenido a la Farmacia !
 4 - Ventas Ordenadas
 5 - Promedio de las Ventas
 6 - Cantidad de Clientes sin Obra Social 
-7 - Mostrar Cliente y Venta con el valor Maximo  
+7 - Buscar cliente y listar sus ventas
 8 - Mostrar venta con el 1er y 2do Maximo
 9 - Salir
 '''

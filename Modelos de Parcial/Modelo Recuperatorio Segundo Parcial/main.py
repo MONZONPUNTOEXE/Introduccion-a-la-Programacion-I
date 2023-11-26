@@ -17,7 +17,7 @@ while True:
     if user == 6:
         negocio.clientesSinObra()
     if user == 7:
-        negocio.ventaValorMaximo()
+        negocio.buscarYListarVentas()
     if user == 8:
         negocio.maximos()
     if user == 9:

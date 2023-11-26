@@ -18,6 +18,7 @@ Contenidos:
 - [Modelos de Parcial](#modelos-de-parcial)
   - [Primer Parcial](#primer-parcial)
   - [Segundo Parcial](#segundo-parcial)
+  - [Código del Profesor 2do Parcial](#código-del-profesor-segundo-parcial)
   - [Recuperatorio del Primer Parcial](#recuperatorio-del-primer-parcial)
   - [Recuperatorio del Segundo Parcial](#recuperatorio-del-segundo-parcial)
   - [Integrador](#examen-integrador)
@@ -164,7 +165,7 @@ print(promedio)
   - [Negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Segundo%20Parcial/negocio.py)
   - [Utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Segundo%20Parcial/utils.py)
 
-### Código del Profe Segundo Parcial
+### Código del Profesor Segundo Parcial
 
 - [Carpeta del Código](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/tree/main/Modelos%20de%20Parcial/Codigo%20del%20Profesor%20Segundo%20Parcial)
 

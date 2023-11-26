@@ -1,28 +1,26 @@
-################ LISTA CARGADA #################
-
 # Productos
-producto_codigo = [10, 20]
-producto_nombre = ['Actron 600', 'paracetamol']
-producto_marca = ['bayer', 'Tafirol Forte']
-producto_precio = [260, 150]
-producto_stock = [100, 200]
-producto_cantidad_vendida = [100, 100]
+producto_codigo = []
+producto_nombre = []
+producto_marca = []
+producto_precio = []
+producto_stock = []
+producto_cantidad_vendida = []
 
 # Clientes
-cliente_codigo = [1, 2]
-cliente_nombre = ['Franco', 'Marcelo']
-cliente_apellido = ['Monzon', 'Polino']
-cliente_obraSocial = [1,0]
-cliente_nombreObraSocial = ['Osde', ' ']
-cliente_cantidad_vendida = [2, 2]
-cliente_venta_total_pesos = [12300, 20500]
+cliente_codigo = []
+cliente_nombre = []
+cliente_apellido = []
+cliente_obraSocial = []
+cliente_nombreObraSocial = []
+cliente_cantidad_vendida = []
+cliente_venta_total_pesos = []
 
 # Ventas
-cliente_codigo_venta = [1, 2, 1, 2]
-nombre_cliente_venta = ['Franco', 'Marcelo', 'Franco', 'Marcelo']
-nombre_producto_venta = ['Actron 600', 'Actron 600', 'paracetamol', 'paracetamol']
-descuento_venta = [40, 0, 40, 0]
-precio_total_venta = [13000, 7000, 7500, 7800]
+cliente_codigo_venta = []
+nombre_cliente_venta = []
+nombre_producto_venta = []
+descuento_venta = []
+precio_total_venta = []
 
 # Clientes sin obra social
 cantidadDeClienteSinObraN = []
@@ -174,15 +172,22 @@ def clientesSinObra():
     for i in range(0,len(cantidadDeClienteSinObraA)):
         print(cantidadDeClienteSinObraN[i],cantidadDeClienteSinObraA[i])
 
-def ventaValorMaximo():
-    aux = 0
-    for i in range(0,len(precio_total_venta)):
-        if precio_total_venta[i] > aux:
-            aux = precio_total_venta[i]
-            nombreMaximo = nombre_cliente_venta[i]
-    print(f'El precio maximo es: {aux}')
-    print(f'El nombre es: {nombreMaximo}')
-####################################################
+def buscarYListarVentas():
+    user = int(input('Ingrese el codigo del cliente que desea listar las ventas: '))
+    pos_cliente = buscarCliente(user)
+    if pos_cliente != -1:
+        
+        print(f'Este cliente se llama: {cliente_nombre[pos_cliente]} e hizo las siguiente compras:')
+        for i in range(0,len(cliente_codigo_venta)):
+            if cliente_codigo[pos_cliente] == cliente_codigo_venta[i]:
+                print('#######################################')
+                print(f'Nombre de Producto:{nombre_producto_venta[i]}')
+                print(f'Total de compra: {precio_total_venta[i]}')
+
+
+    else:
+        print('Su cliente no se encontro, Intentalo nuevamente')
+
 
 def maximos():
     maximo = 0
@@ -206,6 +211,4 @@ def maximos():
     print(f'El numero maximo de la lista es: {maximo}')
     print(f'El numero segundo maximo de la lista es: {maximo_dos}')
     print(f'El nombre del cliente de la venta maxima de la lista es: {cliente_nombre[buscarCliente(maximo_cliente)]}')
-    print(f'El nombre del cliente de la segunda venta maxima de la lista es: {cliente_nombre[buscarCliente(maximo_dos_cliente)]}')
-
-        
+    print(f'El nombre del cliente de la segunda venta maxima de la lista es: {cliente_nombre[buscarCliente(maximo_dos_cliente)]}')       

@@ -1,28 +1,26 @@
 import negocio
 import utils
 
-while True:
-    utils.imprimirMenu()
-    user = int(input('Ingrese una opcion: '))
-    if user == 1:
-        negocio.clienteNuevo()
+noFinalizado = True
+while noFinalizado:
+    print("Bienvenido")
+    utils.imprimirMenu()    
+    user = int(input("Ingrese la opción: "))
+    if user == 1:        
+        negocio.cargarProducto()
     if user == 2:
-        negocio.productoNuevo()
+        negocio.cargarCliente()
     if user == 3:
-        negocio.ventaNueva()
-    if user == 4:        
-        negocio.listaOrdenada()
+        negocio.cargarVenta()
+    if user == 4:
+        negocio.ventasOrdenadas()
     if user == 5:
-        negocio.listarVentaXCliente()
+        print("No realizado")
     if user == 6:
         print("No realizado")
-        #negocio.ventaNueva()
     if user == 7:
-        negocio.ventaMaxima()
+        print("No realizado")
     if user == 8:
-       print("No realizado")
-        #negocio.ventaNueva()
+        print("No realizado")
     if user == 9:
-        print("Gracias por usar mi sistema")
-        break
-        
+        noFinalizado = False

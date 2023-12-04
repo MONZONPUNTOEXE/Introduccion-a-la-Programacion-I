@@ -1,16 +1,14 @@
-menu = '''
-Bienvenido! . Escriba un número para escoger la opción:
-
-1 - Cargar Cliente
-2 - Cargar Producto
-3 - ventaNueva
-4 - listaOrdenada
-5 - listarVentaXCliente
-6 - Listar los Productos
-7 - ventaMaxima 
-8 - Listar los producto de mayor a menor  por ventas.
-9 - Salir 
-'''
+menu = """
+1- Cargar Producto
+2- Cargar Cliente
+3- Cargar Venta
+4- Ventas ordenadas
+5- Listar ventas de cliente
+6- Promedio de ventas
+7- Cantidad de Clientes sin Obra social
+8- Mostrar Maximos y Cliente que la realizo
+9- Salir
+"""
 
 def imprimirMenu():
     print(menu)

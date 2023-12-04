@@ -1,177 +1,141 @@
 # Productos
-producto_codigo = [10, 20]
-producto_nombre = ['ibuprofeno', 'paracetamol']
-producto_marca = ['actron 600', 'tafirol']
-producto_precio = [500, 200]
-producto_stock = [250, 500]
-producto_cantidad_vendida = [10, 70]
+producto_codigo = [1, 2, 3, 4]
+producto_nombre = ['Paracetamol', 'Ibuprofeno', 'Calmante', 'bayaspirina']
+producto_marca = ['Tafirol', 'Actron 600', 'Anaflex', 'bayer']
+producto_precio = [200, 250, 500, 100]
+producto_stock = [500, 200, 100, 400]
 
 # Clientes
-cliente_codigo = [1, 2, 3]
-cliente_nombre = ['franoc', 'nardioc', 'Francccoccco']
-cliente_apellido = ['monzon', 'Maodi', 'MAaaario']
-cliente_obra_social = [1, 0, 0]
-cliente_nombre_obra = ['osde', '', '']
-cliente_cantidad_vendida = [10, 70]
-cliente_vendida_total = [0, 0, 0]
+cliente_codigo = [10, 20, 30]
+cliente_nombre = ['Beto', 'Jose', 'MArcelin']
+cliente_obra = [0, 1, 1]
+cliente_nombre_obra = ['', 'Osde', 'Pilin']
 
-# Ventas
-venta_codigo_cliente = [2, 3, 1]
-venta_cliente = ['nardioc', 'Francccoccco', 'franoc']
-venta_producto = ['paracetamol', 'ibuprofeno', 'paracetamol']
-venta_cantidad = [20, 10, 50]
-venta_descuento = [0, 0, 40]
-venta_precio_total = [4000, 5000, 6000.0]
+# Venta
+venta_cliente_codigo = [10,10,20,10,30]
+venta_producto_codigo = [1,4,4,3,2]
+venta_producto_cantidad = [0, 0, 0, 0]
+venta_descuento = []
+venta_precio_total = [2000, 760.0, 760.0,24,342]
 
 def buscarCliente(codigo):
-    for i in range(0,len(cliente_codigo)):
+    for i in range(len(cliente_codigo)):
         if codigo == cliente_codigo[i]:
-            return i
-    return -1  
-
-def buscarProducto(codigo):
-    for i in range(0,len(producto_codigo)):
-        if codigo == producto_codigo[i]:
+            print(f"Su cliente fue encontrado y es {cliente_nombre[i]}")
             return i
     return -1
 
-def cargarCliente(codigo, nombre, apellido, obrasocial,nombreobrasocial):
-    cliente_codigo.append(codigo)
-    cliente_nombre.append(nombre)
-    cliente_apellido.append(apellido)
-    cliente_obra_social.append(obrasocial)
-    cliente_nombre_obra.append(nombreobrasocial)
-    cliente_cantidad_vendida.append(0)
-    cliente_vendida_total.append(0)
-    print("El cliente fue cargado exitosamente")
-    
-def cargarProducto(codigo, nombre, marca, precio,stock):
-    producto_codigo.append(codigo)
-    producto_nombre.append(nombre)
-    producto_marca.append(marca)
-    producto_precio.append(precio)
-    producto_stock.append(stock)
-    producto_cantidad_vendida.append(0)
-    print("El producto fue cargado exitosamente")
-    
+def buscarProducto(codigo):
+    for i in range(len(producto_codigo)):
+        if codigo == producto_codigo[i]:
+            print(f"Su producto fue encontrado y es {producto_nombre[i]}")
+            return i
+    return -1
+
 def actualizarStock(codigo, cantidad):
-    posP = buscarProducto(codigo)
-    if posP != -1:
-        producto_stock[posP] -= cantidad
-        producto_cantidad_vendida[posP] += cantidad
-    else: 
-        print("Su producto no fue encontrado")
-        
-def cargarVenta(nombre_cliente, nombre_producto,cantidad_vendida,descuento,total_venta,ventaCodigoCliente):
-    venta_codigo_cliente.append(ventaCodigoCliente)
-    venta_cliente.append(nombre_cliente)
-    venta_producto.append(nombre_producto)
-    venta_cantidad.append(cantidad_vendida)
-    venta_descuento.append(descuento)
-    venta_precio_total.append(total_venta)
-    
-def clienteNuevo():
-    while True:
-        codigo = int(input("Ingrese el codigo del Cliente:"))
-        nombre = input("Ingrese el nombre del Cliente: ")
-        apellido = input('Ingrese el apellido del Cliente: ')
-        user = int(input("Su cliente tiene Obra Social ? SI = 0 NO = 1"))
-        cliente_obra_social = 0        
-        cliente_nombre_obra = ''
-        if user == 0:            
-            cliente_obra_social = 1
-            cliente_nombre_obra = input("Ingrese el nombre de la obra social: ")
-            
-        cargarCliente(codigo, nombre, apellido, cliente_obra_social,cliente_nombre_obra)
-        
-        
-        user = input("Desea ingresar otro cliente? SI = 0 NO = 1")
-        if user == 1:
-            break
-        
-def productoNuevo():
-    while True:
-        codigo = int(input("Ingrese el codigo del Producto:"))
-        nombre = input("Ingrese el nombre del Producto: ")
-        marca = input('Ingrese el marca del Producto: ')
-        precio = int(input("Ingrese el precio del Producto:"))
-        stock = int(input("Ingrese el stock del Producto:"))
+    posicion = buscarProducto(codigo)
+    if posicion != -1:
+        venta_producto_cantidad[posicion] += cantidad
+        producto_stock[posicion] -= cantidad
+        print("EL STOCK A SIDO ACTUALIZADO CORRECTAMENTE")
+    else:
+        print("EL PRODUCTO NO SE AH ENCONTRADO")
 
-        cargarProducto(codigo, nombre, marca, precio,stock)       
-        user = input("Desea ingresar otro Producto? SI = 0 NO = 1")
-        if user == 1:
-            break
+def cargarCliente():
+    noFinalizado = True
+    while noFinalizado:
+        cliente_codigo.append(int(input("Ingrese el codigo del Cliente ")))
+        cliente_nombre.append(input("Ingrese el nombre del Cliente "))
+        clienteObraNombre = ''
+        obra = int(input("Su cliente tiene Obra Social ? SI = 1 NO = 0 : "))
+        if obra == 1:
+            clienteObraNombre = input("Ingrese el nombre de la Obra Social del Cliente ")
         
-def ventaNueva():
-    while True:
-        print("Inicio de proceso de venta!")
+        cliente_obra.append(obra)
+        cliente_nombre_obra.append(clienteObraNombre)
         
-        codigoC = int(input("Ingrese el codigo del cliente al que desea vender: "))
-        codigoP = int(input("Ingrese el codigo del producto que desea vender: "))
-        posC = buscarCliente(codigoC)
-        posP = buscarProducto(codigoP)
+        if (input("Finalizado ? y/n : ") == "y"):
+            noFinalizado = False
+
+def cargarProducto():
+    noFinalizado = True
+    while noFinalizado:
+        producto_codigo.append(int(input("Ingrese el codigo del Producto ")))
+        producto_nombre.append(input("Ingrese el nombre del Producto "))
+        producto_marca.append(input("Ingrese el marca del Producto "))
+        producto_precio.append(int(input("Ingrese el precio del Producto ")))
+        producto_stock.append(int(input("Ingrese el stock del Producto ")))
+        venta_producto_cantidad.append(0)
+        
+        if (input("Finalizado ? y/n : ") == "y"):
+            noFinalizado = False
+
+def cargarVenta():
+    noFinalizado = True
+    while noFinalizado:
+        producto = int(input("Ingrese el codigo del Producto "))
+        cliente = int(input("Ingrese el codigo del Cliente "))
+        posP = buscarProducto(producto)
+        posC = buscarCliente(cliente)
         if (posC and posP) != -1:
-            nombre_cliente = cliente_nombre[posC]
-            nombre_producto = producto_nombre[posP]
-            print(f"Su cliente es: {nombre_cliente}")
-            print(f"Su producto es: {nombre_producto}")            
-            cantidad = int(input("Ingrese la cantidad del producto que desea vender: "))
+            cantidad = int(input("Ingrese la cantidad del Producto que desea vender: "))
             if cantidad < producto_stock[posP]:
-                total_venta = cantidad * producto_precio[posP]
+                precio_total = cantidad * producto_precio[posP]
+                actualizarStock(producto, cantidad)
                 descuento = 0
-                if cliente_obra_social[posC] == 1:
-                    print("Su cliente tiene obra social")
+                if cliente_obra[posC] == 1:
+                    print(f"Su cliente posee la obra social {cliente_nombre_obra[posC]} por lo tanto tiene un descuento del 40%")
                     descuento = 40
-                    subtotal = cantidad * producto_precio[posP] * descuento / 100
-                    total_venta = cantidad * producto_precio[posP] - subtotal
-                    
-                venta_codigo_cliente = cliente_codigo[posC]
-                print(f"El total es: {total_venta}")        
-                cargarVenta(nombre_cliente, nombre_producto,cantidad,descuento,total_venta,venta_codigo_cliente)
-                actualizarStock(codigoP, cantidad)
+                    aux = precio_total * descuento / 100
+                    precio_total = aux - descuento
+                venta_cliente_codigo.append(cliente_codigo[posC])
+                venta_producto_codigo.append(producto_codigo[posP])
+                venta_descuento.append(descuento)
+                venta_precio_total.append(precio_total)
+            else:
+                print("La cantidad excede la cantidad del stock total, intentelo nuevamente")
         else:
-            print("No se econtro, intentelo mas tarde")
-      
-        user = int(input("Desea ingresar otro Producto? SI = 0 NO = 1"))
-        if user == 1:
-            break
-        
-def listaOrdenada():
-    for h in range(0,len(venta_precio_total)-1):
-        for i in range(0,len(venta_precio_total)-1):
-            if venta_precio_total[i] >  venta_precio_total[i + 1]:
+            print("Hubo un error a encontrar los productos y cliente intentelo nuevamente")        
+
+        if (input("Finalizado ? y/n : ") == "y"):
+            noFinalizado = False
+
+def ventasOrdenadas():
+    for h in range(len(venta_precio_total)-1):
+        for i in range(len(venta_precio_total)-1):
+            if venta_precio_total[i] < venta_precio_total[i + 1]:
                 aux = venta_precio_total[i]
-                venta_precio_total[i] =  venta_precio_total[i+1]
-                venta_precio_total[i + 1] = aux
-    print(venta_precio_total)
+                venta_precio_total[i] = venta_precio_total[i+1]
+                venta_precio_total[i+1] = aux
     
-def listarVentaXCliente():
-    while True:
-        codigoC = int(input("Ingrese el codigo del cliente al que desea buscar: "))
-        posC = buscarCliente(codigoC)
-        if posC != -1:
-            nombre_cliente = cliente_nombre[posC]
-            print(f"Su cliente es: {nombre_cliente}")
-            for i in range(0, len(venta_codigo_cliente)):
-                if venta_codigo_cliente[i] == cliente_codigo[posC]:
-                    print(f"###################################")
-                    print(f"Producto:  {venta_producto[i]}")
-                    print(f"Precio total:  {venta_precio_total[i]}")
-        else:
-            print('No se encontro tu busqueda')
-        
-        user = int(input("Desea ingresar hacer otra busqueda? SI = 0 NO = 1"))
-        if user == 1:
-            break
+    print(venta_precio_total)
 
-def ventaMaxima():
-    for i in range(0,len(venta_precio_total)-1):
-        if venta_precio_total[i] <  venta_precio_total[i + 1]:
-            aux = venta_precio_total[i + 1]
-            cliente = venta_codigo_cliente[i]    
-    pos = buscarCliente(cliente)
-        
-    print(f'La venta maxima fue de: {aux}')
-    print(f'Y la realizo: {cliente_nombre[pos]}')
+def listarCliente():
+    cliente = int(input("Ingrese el codigo del Cliente al que desea listar las ventas: "))
+    posC = buscarCliente(cliente)
+    if posC != -1:
+        print(f"Su cliente compro lo siguiente: ")
+        for i in range(len(venta_cliente_codigo)):
+            if cliente == venta_cliente_codigo[i]:
+                print("#################################")
+                buscarProducto(venta_producto_codigo[i])
+                print(f"Precio de venta: {venta_precio_total[i]} ")
+    else:
+        print("Su cliente no fue encontrado intentelo de nuevo ")
 
-ventaMaxima()
+def promedio():
+    cantidad = len(venta_precio_total)
+    suma = 0
+    for i in range(len(venta_precio_total)):
+        suma += venta_precio_total[i]
+    promedio = suma / cantidad
+    print(f"El promedio de las ventas es: {promedio}")
+
+def clienteSinObra():
+    cont = 0
+    for i in range(len(cliente_obra)):
+        if cliente_obra[i] == 0:
+            cont += 1
+    print(f"Hay {cont} clientes sin obra social ")
+
+clienteSinObra()

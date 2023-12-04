@@ -1,22 +1,22 @@
 # Productos
-producto_codigo = [1, 2, 3, 4]
-producto_nombre = ['Paracetamol', 'Ibuprofeno', 'Calmante', 'bayaspirina']
-producto_marca = ['Tafirol', 'Actron 600', 'Anaflex', 'bayer']
-producto_precio = [200, 250, 500, 100]
-producto_stock = [500, 200, 100, 400]
+producto_codigo = []
+producto_nombre = []
+producto_marca = []
+producto_precio = []
+producto_stock = []
 
 # Clientes
-cliente_codigo = [10, 20, 30]
-cliente_nombre = ['Beto', 'Jose', 'MArcelin']
-cliente_obra = [0, 1, 1]
-cliente_nombre_obra = ['', 'Osde', 'Pilin']
+cliente_codigo = []
+cliente_nombre = []
+cliente_obra = []
+cliente_nombre_obra = []
 
-# Venta
-venta_cliente_codigo = [10,10,20,10,30]
-venta_producto_codigo = [1,4,4,3,2]
-venta_producto_cantidad = [0, 0, 0, 0]
+# Lista Venta
+venta_cliente_codigo = []
+venta_producto_codigo = []
+venta_producto_cantidad = []
 venta_descuento = []
-venta_precio_total = [2000, 760.0, 760.0,24,342]
+venta_precio_total = []
 
 def buscarCliente(codigo):
     for i in range(len(cliente_codigo)):

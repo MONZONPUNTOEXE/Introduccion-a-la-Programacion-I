@@ -138,4 +138,26 @@ def clienteSinObra():
             cont += 1
     print(f"Hay {cont} clientes sin obra social ")
 
-clienteSinObra()
+def maximos():
+    max_uno = 0
+    max_dos = 0
+    codigo_uno = 0
+    codigo_dos = 0
+    
+    for i in range(0,len(venta_precio_total)):
+        num = venta_precio_total[i]
+        if num > max_uno:
+            max_dos = max_uno
+            codigo_dos = codigo_uno
+            
+            max_uno = num
+            codigo_uno = venta_cliente_codigo[i]
+        elif num > max_dos:
+            max_dos = num
+            codigo_dos = venta_cliente_codigo[i]
+    print(f"La venta maxima es: {max_uno}")
+    buscarCliente(codigo_uno)
+    print(f"La venta segunda maxima es: {max_dos}")
+    buscarCliente(codigo_dos)
+
+maximos()

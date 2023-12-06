@@ -159,5 +159,3 @@ def maximos():
     buscarCliente(codigo_uno)
     print(f"La venta segunda maxima es: {max_dos}")
     buscarCliente(codigo_dos)
-
-maximos()

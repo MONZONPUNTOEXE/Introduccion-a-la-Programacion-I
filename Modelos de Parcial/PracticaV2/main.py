@@ -1,17 +1,17 @@
 # Clientes
 cliente_codigo = [10, 20]
-cliente_nombre = ['Albert', 'Goku']
-cliente_apellido = ['Aistani', 'Son']
-cliente_obra = [1, 0]
-cliente_obra_nombre = ['OSde', '']
+cliente_nombre = ['Facu', 'Jorge']
+cliente_apellido = ['Mozon', 'Malandra']
+cliente_obra = [0, 1]
+cliente_obra_nombre = ['', 'Osde']
 
 # Productos
-producto_codigo = [1, 2]
-producto_nombre = ['manzana', 'Naranja']
-producto_marca = ['pirulo', 'maddga']
-producto_precio = [500, 250]
-producto_stock = [200, 500]
-producto_cantidad_vendida = [0, 0]
+producto_codigo = [1]
+producto_nombre = ['manzana']
+producto_marca = ['marolio']
+producto_precio = [500]
+producto_stock = [100]
+producto_cantidad_vendida = [0]
 
 # Ventas
 venta_cliente_codigo = []
@@ -38,6 +38,7 @@ def actualizarStock(codigo, cantidad):
     if pos != -1:
         producto_stock[pos] -= cantidad
         producto_cantidad_vendida[pos] += cantidad
+        print("El stock fue actulizado correctamente")
 
 def cargarCliente():
     finalizado = True
@@ -46,7 +47,7 @@ def cargarCliente():
         cliente_nombre.append(input("Ingrese el Nombre de su Cliente: "))
         cliente_apellido.append(input("Ingrese el Apellido de su Cliente: "))
         obra = 0
-        nombreObra = ''
+        nombreObra = '' 
         if ((input("Su cliente tiene Obra Social ? y/n ") == "y")):
             obra = 1
             nombreObra = input('Ingrese el nombre de la obra social: ')
@@ -99,6 +100,3 @@ def cargarVenta():
             print("El Producto no fue encontrado, intentelo nuevamente")
         if (input("Desea Finalizar ? y/n : ") == "y"):
             finalizado = False
-
-
-cargarVenta()

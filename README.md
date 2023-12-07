@@ -23,6 +23,7 @@ Contenidos:
   - [Recuperatorio del Segundo Parcial](#recuperatorio-del-segundo-parcial)
   - [Integrador](#examen-integrador)
   - [Final](#examen-final)
+  - # Materia Finalizada !
 
 # Unidad I y II
 ## Clase I
@@ -192,12 +193,12 @@ print(promedio)
 
 ### Examen Integrador
 > Proximamente...
-- [Carpeta del Integrador](#examen-integrador)
+- [Carpeta del Integrador](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Integrador/readme.md)
 
-  - [Enunciado](#examen-integrador)
-  - [Main](#examen-integrador)
-  - [Negocio](#examen-integrador)
-  - [Utils](#examen-integrador)
+  - [Enunciado](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Integrador/readme.md)
+  - [Main](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Integrador/main.py)
+  - [Negocio](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Integrador/negocio.py)
+  - [Utils](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Integrador/utils.py)
 ### Examen Final
 > Proximamente...
 - [Carpeta del Final](#examen-final)

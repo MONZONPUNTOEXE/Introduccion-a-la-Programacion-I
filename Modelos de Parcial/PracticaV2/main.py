@@ -1,17 +1,17 @@
 # Clientes
-cliente_codigo = [10, 20]
-cliente_nombre = ['Facu', 'Jorge']
-cliente_apellido = ['Mozon', 'Malandra']
-cliente_obra = [0, 1]
-cliente_obra_nombre = ['', 'Osde']
+cliente_codigo = []
+cliente_nombre = []
+cliente_apellido = []
+cliente_obra = []
+cliente_obra_nombre = []
 
 # Productos
-producto_codigo = [1]
-producto_nombre = ['manzana']
-producto_marca = ['marolio']
-producto_precio = [500]
-producto_stock = [100]
-producto_cantidad_vendida = [0]
+producto_codigo = []
+producto_nombre = []
+producto_marca = []
+producto_precio = []
+producto_stock = []
+producto_cantidad_vendida = []
 
 # Ventas
 venta_cliente_codigo = []

@@ -111,7 +111,7 @@ def ventasOrdenadas():
     print(venta_precio_total)
 
 def listarCliente():
-    cliente = int(input("Ingrese el codigo del Cliente al que desea listar las ventas: "))
+    cliente = int(input("Ingrese el código del Cliente al que desea listar las ventas: "))
     posC = buscarCliente(cliente)
     if posC != -1:
         print(f"Su cliente compro lo siguiente: ")
@@ -121,7 +121,7 @@ def listarCliente():
                 buscarProducto(venta_producto_codigo[i])
                 print(f"Precio de venta: {venta_precio_total[i]} ")
     else:
-        print("Su cliente no fue encontrado intentelo de nuevo ")
+        print("Su cliente no fue encontrado inténtelo de nuevo ")
 
 def promedio():
     cantidad = len(venta_precio_total)

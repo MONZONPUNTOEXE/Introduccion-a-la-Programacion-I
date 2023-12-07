@@ -23,7 +23,7 @@ Contenidos:
   - [Recuperatorio del Segundo Parcial](#recuperatorio-del-segundo-parcial)
   - [Integrador](#examen-integrador)
   - [Final](#examen-final)
-  - # Materia Finalizada !
+- [Materia Finalizada !](#materia-finalizada-!)
 
 # Unidad I y II
 ## Clase I
@@ -207,3 +207,4 @@ print(promedio)
   - [Main](#examen-final)
   - [Negocio](#examen-final)
   - [Utils](#examen-final)
+# Materia Finalizada !

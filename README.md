@@ -192,8 +192,8 @@ print(promedio)
 
 
 ### Examen Integrador
-> Proximamente...
-- [Carpeta del Integrador](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Integrador/readme.md)
+> Nos la hizo un poco más facil por haber aprobado todas las instancias, pero teniamos 1:30hs para resolverlo.
+- [Carpeta del Integrador](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Integrador)
 
   - [Enunciado](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Integrador/readme.md)
   - [Main](https://github.com/MONZONPUNTOEXE/Introduccion-a-la-Programacion-I/blob/main/Modelos%20de%20Parcial/Modelo%20Integrador/main.py)
